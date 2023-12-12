@@ -12,8 +12,10 @@
     "@heroicons/react": "^2.0.18",
     "next": "latest",
     "react": "latest",
+    "react-animated-numbers": "^0.17.1",
     "react-dom": "latest",
-    "react-type-animation": "^3.1.0"
+    "react-type-animation": "^3.1.0",
+    "resend": "^2.0.0"
   },
   "devDependencies": {
     "autoprefixer": "latest",
