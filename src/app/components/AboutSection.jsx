@@ -63,8 +63,8 @@ function AboutSection() {
                         About Me
                     </h2>
                     <p className='text-base lg:text-lg'>
-                        I'm a skilled and dedicated web developer. My expertise are responsive designing, coding, optimizing websites, casino games and web applications is at the forefront of creating exceptional online experiences.
-                        I'm a quick learner and always looking forward to expand my knowledge and skill set.
+                        I&apos;m a skilled and dedicated web developer. My expertise are responsive designing, coding, optimizing websites, casino games and web applications is at the forefront of creating exceptional online experiences.
+                        A quick learner and always looking forward to expand my knowledge and skill set.
                     </p>
                     <div className='flex flex-row justify-start mt-8'>
                         <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
