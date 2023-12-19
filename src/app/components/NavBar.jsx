@@ -2,13 +2,14 @@
 import Link from 'next/link';
 import NavLink from './NavLink';
 import React, { useState } from 'react';
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"
+import { Bars3Icon, XMarkIcon, SunIcon, MoonIcon } from "@heroicons/react/24/solid"
 import MenuOverlay from './MenuOverlay';
+import { Monoton } from 'next/font/google';
 
 const navLinks = [
     {
         title: "About",
-        path: "#about"
+        path: "#about",
     },
     {
         title: "Projects",
@@ -22,6 +23,15 @@ const navLinks = [
 
 function NavBar() {
     const [navBarOpen, setNavBarOpen] = useState(false)
+    const [toggle, setToggle] = useState(true);
+
+    const handleLightBtnClick = () => {
+        setToggle(false);
+    }
+    const handleDarkBtnClick = () => {
+        setToggle(true);
+    }
+
     return (
         <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
             <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
@@ -54,6 +64,19 @@ function NavBar() {
                         }
                     </ul>
                 </div>
+                {
+
+                    toggle ?
+                        (
+                            <button onClick={handleLightBtnClick}>
+                                <SunIcon className='h-8 w-8' />
+                            </button>
+                        ) : (
+                            <button onClick={handleDarkBtnClick}>
+                                <MoonIcon className='h-8 w-8' />
+                            </button>
+                        )
+                }
             </div>
             {navBarOpen ? <MenuOverlay links={navLinks} /> : null}
         </nav>
