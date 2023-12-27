@@ -12,7 +12,7 @@ const projectsData = [
         image: "/images/projects/a4.png",
         tag: ["All", "Web"],
         gitUrl: "/",
-        previewUrl: "/",
+        previewUrl: "https://portfolio-ten-chi-72.vercel.app/",
     },
     {
         id: 2,
@@ -30,7 +30,7 @@ const projectsData = [
         image: "/images/projects/e3.png",
         tag: ["All", "Web"],
         gitUrl: "/",
-        previewUrl: "/",
+        previewUrl: "https://shopping-cart-gold-seven.vercel.app/",
     },
     {
         id: 4,
@@ -39,7 +39,7 @@ const projectsData = [
         image: "/images/projects/b1.png",
         tag: ["All", "Mobile"],
         gitUrl: "/",
-        previewUrl: "/",
+        previewUrl: "https://myblogsite-one.vercel.app/",
     },
     {
         id: 5,
