@@ -21,7 +21,7 @@ const projectsData = [
         image: "/images/projects/c4.webp",
         tag: ["All", "Web"],
         gitUrl: "/",
-        previewUrl: "/",
+        previewUrl: "https://crypto-tracker-mz3tzv70c-lokendra-singhs-projects-15ab4698.vercel.app/",
     },
     {
         id: 3,
@@ -48,7 +48,7 @@ const projectsData = [
         image: "/images/projects/m1.png",
         tag: ["All", "Web"],
         gitUrl: "/",
-        previewUrl: "/",
+        previewUrl: "https://movies-hub-eta-drab.vercel.app/",
     },
     {
         id: 6,
