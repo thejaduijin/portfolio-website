@@ -64,7 +64,7 @@ function NavBar() {
                         }
                     </ul>
                 </div>
-                {
+                {/* {
 
                     toggle ?
                         (
@@ -76,7 +76,7 @@ function NavBar() {
                                 <MoonIcon className='h-8 w-8' />
                             </button>
                         )
-                }
+                } */}
             </div>
             {navBarOpen ? <MenuOverlay links={navLinks} /> : null}
         </nav>
