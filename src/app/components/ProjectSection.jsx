@@ -16,6 +16,15 @@ const projectsData = [
     },
     {
         id: 2,
+        title: "Gym & Fitness Website",
+        description: "Gym & fitness website created using vanila js.",
+        image: "/images/projects/gym.jpg",
+        tag: ["All", "Web","mobile"],
+        gitUrl: "/",
+        previewUrl: "https://gym-fitness-tau.vercel.app/",
+    },
+    {
+        id: 3,
         title: "React Crypto Tracker Website",
         description: "Tracks crypto prices build using React..",
         image: "/images/projects/c4.webp",
@@ -24,7 +33,7 @@ const projectsData = [
         previewUrl: "https://crypto-tracker-mz3tzv70c-lokendra-singhs-projects-15ab4698.vercel.app/",
     },
     {
-        id: 3,
+        id: 4,
         title: "E-commerce Application",
         description: "E-commerce website name Shopping Cart build using React..",
         image: "/images/projects/e3.png",
@@ -33,7 +42,7 @@ const projectsData = [
         previewUrl: "https://shopping-cart-gold-seven.vercel.app/",
     },
     {
-        id: 4,
+        id: 5,
         title: "My Blog Site",
         description: "Daily news reading site by React..",
         image: "/images/projects/b1.png",
@@ -42,7 +51,7 @@ const projectsData = [
         previewUrl: "https://myblogsite-one.vercel.app/",
     },
     {
-        id: 5,
+        id: 6,
         title: "Movies Hub",
         description: "Movie watching site using React..",
         image: "/images/projects/m1.png",
@@ -51,7 +60,7 @@ const projectsData = [
         previewUrl: "https://movies-hub-eta-drab.vercel.app/",
     },
     {
-        id: 6,
+        id: 7,
         title: "NEXT.js Portfolio Website",
         description: "Portfolio Website build using NEXT.js..",
         image: "/images/projects/p1.png",

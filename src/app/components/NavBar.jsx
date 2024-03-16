@@ -39,8 +39,13 @@ function NavBar() {
                     href={"/"}
                     className='text-2xl md:text-5xl text-white font-semibold'
                 >
-                    LOGO
+                    {/* LOGO */}
+                    <img src="/logo.png" alt="My Image" width="72" height="72"/>
                 </Link>
+
+                {/* <Link href="/" className='text-2xl md:text-5xl text-white font-semibold'>
+                        <img src="" alt="My Image" />
+                </Link> */}
                 <div className='mobile-menu block md:hidden '>
                     {
                         !navBarOpen ? (
