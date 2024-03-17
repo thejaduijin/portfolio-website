@@ -35,14 +35,14 @@ function HeroSection() {
                         />
                     </h1>
                     <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-                        The leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s.
+                       Hello visitor happy to see you... 
                     </p>
                     <div>
                         <a
                             href="mailto:lokendra.06.work@gamil.com"
                             target="_blank"
                             className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>
-                            Hire Me
+                            HireMe
                         </a>
                         {/* <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'>
                             <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
@@ -54,7 +54,7 @@ function HeroSection() {
                             target="_blank"
                             rel="noopener noreferrer"
                             className='px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'>
-                            Download CV
+                            DownloadCV
                             {/* <span className=' bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
                             </span> */}
                         </a>
