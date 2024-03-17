@@ -14,6 +14,7 @@ const TAB_DATA = [
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>React</li>
+                <li>Redux</li>
                 <li>Next.js</li>
             </ul>
         ),
