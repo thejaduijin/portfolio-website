@@ -24,6 +24,15 @@ const projectsData = [
         previewUrl: "https://gym-fitness-tau.vercel.app/",
     },
     {
+        id: 5,
+        title: "My Blog Site",
+        description: "Daily news reading site by React..",
+        image: "/images/projects/b1.png",
+        tag: ["All", "Mobile"],
+        gitUrl: "/",
+        previewUrl: "https://myblogsite-one.vercel.app/",
+    },
+    {
         id: 3,
         title: "React Crypto Tracker Website",
         description: "Tracks crypto prices build using React..",
@@ -41,15 +50,7 @@ const projectsData = [
         gitUrl: "/",
         previewUrl: "https://shopping-cart-gold-seven.vercel.app/",
     },
-    {
-        id: 5,
-        title: "My Blog Site",
-        description: "Daily news reading site by React..",
-        image: "/images/projects/b1.png",
-        tag: ["All", "Mobile"],
-        gitUrl: "/",
-        previewUrl: "https://myblogsite-one.vercel.app/",
-    },
+    
     // {
     //     id: 6,
     //     title: "Movies Hub",
