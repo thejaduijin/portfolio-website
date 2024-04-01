@@ -16,17 +16,12 @@ const achievementsList = [
   },
   {
     metric: "Projects",
-    value: "100",
+    value: "25",
     postfix: "+",
   },
   {
     metric: "Years",
     value: "3",
-    postfix: "+",
-  },
-  {
-    metric: "Values",
-    value: "1000",
     postfix: "+",
   },
 ];
