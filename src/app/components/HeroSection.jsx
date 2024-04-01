@@ -50,7 +50,7 @@ function HeroSection() {
                             </span>
                         </button> */}
                         <a
-                            href="portfolio/Lokendra_Latest.pdf"
+                            href="portfolio/Lokendra_Singh_CV.pdf"
                             download
                             target="_blank"
                             rel="noopener noreferrer"
