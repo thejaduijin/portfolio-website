@@ -5,15 +5,15 @@ import ProjectTag from './ProjectTag';
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
-    {
-        id: 1,
-        title: "HTML Portfolio Website",
-        description: "Portfolio Website build using HTML..",
-        image: "/images/projects/a4.png",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "https://portfolio-ten-chi-72.vercel.app/",
-    },
+    // {
+    //     id: 1,
+    //     title: "HTML Portfolio Website",
+    //     description: "Portfolio Website build using HTML..",
+    //     image: "/images/projects/a4.png",
+    //     tag: ["All", "Web"],
+    //     gitUrl: "/",
+    //     previewUrl: "https://portfolio-ten-chi-72.vercel.app/",
+    // },
     {
         id: 2,
         title: "Gym & Fitness Website",
@@ -50,15 +50,15 @@ const projectsData = [
         gitUrl: "/",
         previewUrl: "https://myblogsite-one.vercel.app/",
     },
-    {
-        id: 6,
-        title: "Movies Hub",
-        description: "Movie watching site using React..",
-        image: "/images/projects/m1.png",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "https://movies-hub-eta-drab.vercel.app/",
-    },
+    // {
+    //     id: 6,
+    //     title: "Movies Hub",
+    //     description: "Movie watching site using React..",
+    //     image: "/images/projects/m1.png",
+    //     tag: ["All", "Web"],
+    //     gitUrl: "/",
+    //     previewUrl: "https://movies-hub-eta-drab.vercel.app/",
+    // },
     {
         id: 7,
         title: "NEXT.js Portfolio Website",
