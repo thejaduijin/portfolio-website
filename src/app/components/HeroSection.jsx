@@ -24,6 +24,8 @@ function HeroSection() {
                             sequence={[
                                 'Lokendra Singh',
                                 1000,
+                                'Game Developer',
+                                1000,
                                 'Web Developer',
                                 1000,
                                 'UI/UX Designer',
@@ -49,16 +51,16 @@ function HeroSection() {
                                 Download CV
                             </span>
                         </button> */}
-                        <a
+                        {/* <a
                             href="portfolio/Lokendra_Singh_CV.pdf"
                             download
                             target="_blank"
                             rel="noopener noreferrer"
                             className='px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'>
-                            Download CV
+                            Download CV */}
                             {/* <span className=' bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
                             </span> */}
-                        </a>
+                        {/* </a> */}
                     </div>
                 </motion.div>
                 <motion.div
