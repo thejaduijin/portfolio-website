@@ -51,7 +51,7 @@ function HeroSection() {
                                 Download CV
                             </span>
                         </button> */}
-                        {/* <a
+                        <a
                             href="portfolio/Lokendra_Singh_CV.pdf"
                             download
                             target="_blank"
