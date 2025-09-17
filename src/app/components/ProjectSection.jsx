@@ -5,15 +5,15 @@ import ProjectTag from './ProjectTag';
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
-    // {
-    //     id: 1,
-    //     title: "HTML Portfolio Website",
-    //     description: "Portfolio Website build using HTML..",
-    //     image: "/images/projects/a4.png",
-    //     tag: ["All", "Web"],
-    //     gitUrl: "/",
-    //     previewUrl: "https://portfolio-ten-chi-72.vercel.app/",
-    // },
+    {
+        id: 1,
+        title: "Basic Calculator",
+        description: "Basic Calculator build using HTML, CSS & JavaScript..",
+        image: "/images/projects/calc2.png",
+        tag: ["All", "Web"],
+        gitUrl: "/",
+        previewUrl: "https://basic-calculator-sooty-omega.vercel.app/",
+    },
     {
         id: 2,
         title: "Gym & Fitness Website",
