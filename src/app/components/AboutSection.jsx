@@ -24,7 +24,7 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className="list-disc pl-2">
-                <li>Masters of Computer Application(MCA) from AKTU Lacknow.</li>
+                <li>Masters of Computer Application(MCA) from AKTU Lucknow.</li>
                 <li>Bachelor of Computer Application(BCA) from DBRAU Agra.</li>
                 <li>Intermediate from UP Board.</li>
                 <li>High School from UP Board.</li>
